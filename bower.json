@@ -2,7 +2,8 @@
     "name": "coolstore-microservice",
     "description": "Web UI for the CoolStore Microservices App",
     "authors": [
-        "Red Hat"
+        "Red Hat",
+        "Kovarus"
     ],
     "license": "Apache-2.0",
     "private": true,

@@ -1,7 +1,8 @@
 {
     "author": "Red Hat",
     "contributors": [
-        "James Falkner <jfalkner@redhat.com> (https://developers.redhat.com)"
+        "James Falkner <jfalkner@redhat.com> (https://developers.redhat.com)",
+        "Leon Levy <llevy@kovarus.com> (http://kovarus.com)"
     ],
     "name": "web",
     "repository": "jbossdemocentral/coolstore-microservice",
