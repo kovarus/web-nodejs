@@ -4,6 +4,12 @@ This is the web UI front-end to the coolstore application.
 
 It is written in Node.js and AngularJS
 
+Please be sure you have deployed the required microservices before launching the Web UI:
+
+1. [https://github.com/bugbiteme/catalog-spring-boot]()
+2. [https://github.com/bugbiteme/inventory-wildfly-swarm]()
+3. [https://github.com/bugbiteme/gateway-vertx]()
+
 ## Deploy web-nodejs to OpenShift
 
 First, make sure you are in the coolstore project:
