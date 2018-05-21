@@ -35,3 +35,5 @@ oc get route web
 Point your browser at the Web UI route url. You should be able to see the CoolStore with all products and their inventory status.
 
 ![](img/web_ui.png)
+
+Original source: [http://guides-cdk-roadshow.b9ad.pro-us-east-1.openshiftapps.com/index.html#/workshop/roadshow/module/nodejs]()
