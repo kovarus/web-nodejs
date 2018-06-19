@@ -6,9 +6,9 @@ It is written in Node.js and AngularJS
 
 Please be sure you have deployed the required microservices before launching the Web UI:
 
-1. [https://github.com/bugbiteme/catalog-spring-boot](https://github.com/bugbiteme/catalog-spring-boot)
-2. [https://github.com/bugbiteme/inventory-wildfly-swarm](https://github.com/bugbiteme/inventory-wildfly-swarm)
-3. [https://github.com/bugbiteme/gateway-vertx](https://github.com/bugbiteme/gateway-vertx)
+1. [https://github.com/kovarus/catalog-spring-boot](https://github.com/kovarus/catalog-spring-boot)
+2. [https://github.com/kovarus/inventory-wildfly-swarm](https://github.com/kovarus/inventory-wildfly-swarm)
+3. [https://github.com/kovarus/gateway-vertx](https://github.com/kovarus/gateway-vertx)
 
 ## Deploy web-nodejs to OpenShift
 
@@ -18,7 +18,7 @@ First, make sure you are in the coolstore project:
 
 Use the OpenShift CLI command to create a new build and deployment for the Web component:
 
-`oc new-app nodejs~https://github.com/bugbiteme/web-nodejs.git --name=web`
+`oc new-app nodejs~https://github.com/kovarus/web-nodejs.git --name=web`
 
 A build gets created and starts building the Node.js Web UI container image. You can see the build logs using OpenShift Web Console or OpenShift CLI:
 
@@ -36,4 +36,4 @@ Point your browser at the Web UI route url. You should be able to see the CoolSt
 
 ![](img/web_ui.png)
 
-Original source: [http://guides-cdk-roadshow.b9ad.pro-us-east-1.openshiftapps.com/index.html#/workshop/roadshow/module/nodejs]()
+Original source: [http://guides-cdk-roadshow.b9ad.pro-us-east-1.openshiftapps.com/index.html#/workshop/roadshow/module/nodejs](http://guides-cdk-roadshow.b9ad.pro-us-east-1.openshiftapps.com/index.html#/workshop/roadshow/module/nodejs)
